@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LATIFA PARFUM | Marrakech</title>
-    <meta name="description" content="Découvrez LATIFA PARFUM, l'essence du luxe à Marrakech. Parfums d'exception pour hommes, femmes et enfants.">
-    
+    <title>LATIFA PARFUM </title>
+    <meta name="description"
+        content="Découvrez LATIFA PARFUM, l'essence du luxe à Marrakech. Parfums d'exception pour hommes, femmes et enfants.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
     <!-- Icons (Phosphor) -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <!-- Preloader -->
     <div id="preloader">
@@ -27,7 +32,8 @@
 
     <!-- Background Waves -->
     <div class="waves-bg">
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             <defs>
                 <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
             </defs>
@@ -51,8 +57,10 @@
             <a href="#" data-target="contact">Contact</a>
         </nav>
         <div class="header-icons">
-            <i class="ph ph-magnifying-glass" onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click()"></i>
-            <div class="theme-toggle-icon" id="themeToggleBtn" style="cursor: pointer; display: flex; align-items: center;">
+            <i class="ph ph-magnifying-glass"
+                onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click()"></i>
+            <div class="theme-toggle-icon" id="themeToggleBtn"
+                style="cursor: pointer; display: flex; align-items: center;">
                 <i class="ph ph-moon" id="themeIcon"></i>
             </div>
             <div class="cart-icon" id="cartOpenBtn">
@@ -65,7 +73,7 @@
 
     <!-- MAIN CONTENT (SPA SECTIONS) -->
     <main>
-        
+
         <!-- SECTION: HOME -->
         <section id="home" class="spa-section active">
             <div class="hero">
@@ -74,12 +82,15 @@
                     <source src="videos/bg-video.mp4" type="video/mp4">
                 </video>
                 <div class="magic-particles" id="particlesContainer"></div>
-                
+
                 <div class="hero-content">
                     <h1 class="reveal-stagger">L'essence du luxe</h1>
-                    <p class="reveal-stagger delay-1">Découvrez notre collection exclusive de parfums créés à Marrakech, pour chaque personnalité.</p>
+                    <p class="reveal-stagger delay-1">Découvrez notre collection exclusive de parfums créés à Marrakech,
+                        pour chaque personnalité.</p>
                     <div class="reveal-stagger delay-2" style="display: flex; gap: 1rem; justify-content: center;">
-                        <a href="#" class="btn btn-primary" onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click()">Découvrir la collection</a>
+                        <a href="#" class="btn btn-primary"
+                            onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click()">Découvrir la
+                            collection</a>
                         <a href="#about-preview" class="btn">Notre Maison</a>
                     </div>
                 </div>
@@ -88,17 +99,26 @@
             <div class="container categories-preview" id="about-preview">
                 <h2 class="section-title">Nos <span>Univers</span></h2>
                 <div class="categories-grid">
-                    <div class="category-card" onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click(); app.filterByCategory('Homme')">
+                    <div class="category-card"
+                        onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click(); app.filterByCategory('Homme')">
                         <img src="images/cat-homme.jpg" alt="Parfums Homme">
-                        <div class="category-overlay"><h3>Homme</h3></div>
+                        <div class="category-overlay">
+                            <h3>Homme</h3>
+                        </div>
                     </div>
-                    <div class="category-card" onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click(); app.filterByCategory('Femme')">
+                    <div class="category-card"
+                        onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click(); app.filterByCategory('Femme')">
                         <img src="images/cat-femme.jpg" alt="Parfums Femme">
-                        <div class="category-overlay"><h3>Femme</h3></div>
+                        <div class="category-overlay">
+                            <h3>Femme</h3>
+                        </div>
                     </div>
-                    <div class="category-card" onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click(); app.filterByCategory('Enfant')">
+                    <div class="category-card"
+                        onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click(); app.filterByCategory('Enfant')">
                         <img src="images/cat-enfant.jpg" alt="Parfums Enfant">
-                        <div class="category-overlay"><h3>Enfant</h3></div>
+                        <div class="category-overlay">
+                            <h3>Enfant</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -108,7 +128,7 @@
         <section id="shop" class="spa-section">
             <div class="container">
                 <h2 class="section-title">La <span>Boutique</span></h2>
-                
+
                 <div class="shop-header">
                     <div class="filters">
                         <button class="filter-btn active" data-filter="Tout">Tout</button>
@@ -140,7 +160,8 @@
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <i class="ph ph-quotes"></i>
-                            <p>"Une expérience sensorielle unique. Le parfum 'Santal Royal' est devenu ma signature. La tenue est exceptionnelle et le flacon est un véritable objet d'art."</p>
+                            <p>"Une expérience sensorielle unique. Le parfum 'Santal Royal' est devenu ma signature. La
+                                tenue est exceptionnelle et le flacon est un véritable objet d'art."</p>
                         </div>
                         <div class="testimonial-user">
                             <img src="images/client-1.jpg" alt="Client 1">
@@ -153,7 +174,8 @@
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <i class="ph ph-quotes"></i>
-                            <p>"J'ai enfin trouvé des parfums qui allient tradition marocaine et modernité. 'Rose Absolue' est d'une élégance rare. Je recommande vivement LATIFA PARFUM."</p>
+                            <p>"J'ai enfin trouvé des parfums qui allient tradition marocaine et modernité. 'Rose
+                                Absolue' est d'une élégance rare. Je recommande vivement LATIFA PARFUM."</p>
                         </div>
                         <div class="testimonial-user">
                             <img src="images/client-2.jpg" alt="Client 2">
@@ -166,7 +188,8 @@
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <i class="ph ph-quotes"></i>
-                            <p>"Le service client est aussi raffiné que les fragrances. La livraison à Tanger a été rapide et soignée. Une maison de haute parfumerie à suivre."</p>
+                            <p>"Le service client est aussi raffiné que les fragrances. La livraison à Tanger a été
+                                rapide et soignée. Une maison de haute parfumerie à suivre."</p>
                         </div>
                         <div class="testimonial-user">
                             <img src="images/client-3.jpg" alt="Client 3">
@@ -190,10 +213,16 @@
                     </div>
                     <div class="about-text">
                         <h2>Le Savoir-Faire Marocain</h2>
-                        <p>Née au cœur de Marrakech, LATIFA PARFUM est une maison de haute parfumerie qui allie l'élégance moderne aux traditions millénaires de l'Orient.</p>
-                        <p>Nous sélectionnons rigoureusement les matières premières les plus nobles : la rose de la vallée du Dadès, le bois de Cèdre de l'Atlas, et l'Oud précieux, pour créer des fragrances inoubliables et intemporelles.</p>
-                        <p>Chaque flacon est le résultat d'une recherche minutieuse de perfection, pour offrir à nos clients une expérience olfactive luxueuse et émotionnelle.</p>
-                        <a href="#" class="btn btn-primary" style="margin-top: 1rem;" onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click()">Explorer les collections</a>
+                        <p>Née au cœur de Marrakech, LATIFA PARFUM est une maison de haute parfumerie qui allie
+                            l'élégance moderne aux traditions millénaires de l'Orient.</p>
+                        <p>Nous sélectionnons rigoureusement les matières premières les plus nobles : la rose de la
+                            vallée du Dadès, le bois de Cèdre de l'Atlas, et l'Oud précieux, pour créer des fragrances
+                            inoubliables et intemporelles.</p>
+                        <p>Chaque flacon est le résultat d'une recherche minutieuse de perfection, pour offrir à nos
+                            clients une expérience olfactive luxueuse et émotionnelle.</p>
+                        <a href="#" class="btn btn-primary" style="margin-top: 1rem;"
+                            onclick="document.querySelector('.nav-links a[data-target=\'shop\']').click()">Explorer les
+                            collections</a>
                     </div>
                 </div>
             </div>
@@ -205,7 +234,8 @@
                 <h2 class="section-title">Nous <span>Contacter</span></h2>
                 <div class="contact-container">
                     <div class="contact-form-side">
-                        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message envoyé avec succès !');">
+                        <form class="contact-form"
+                            onsubmit="event.preventDefault(); alert('Message envoyé avec succès !');">
                             <div class="form-group">
                                 <input type="text" placeholder="Votre Nom complet" required>
                             </div>
@@ -218,14 +248,17 @@
                             <button type="submit" class="btn btn-primary">Envoyer le message</button>
                         </form>
                         <div style="margin-top: 2rem;">
-                            <a href="https://wa.me/212772290556" target="_blank" class="btn" style="display: flex; align-items: center; gap: 0.5rem; width: fit-content;">
+                            <a href="https://wa.me/212772290556" target="_blank" class="btn"
+                                style="display: flex; align-items: center; gap: 0.5rem; width: fit-content;">
                                 <i class="ph ph-whatsapp-logo" style="font-size: 1.5rem;"></i> Discuter sur WhatsApp
                             </a>
                         </div>
                     </div>
                     <div class="map-container">
                         <!-- Google Maps Iframe (Marrakech Center as placeholder) -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51834.46974410148!2d-5.833954!3d35.759465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b875cf04c132d%3A0x76957a1a531fd7ae!2sTangier!5e0!3m2!1sen!2sma!4v1689239851234!5m2!1sen!2sma" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51834.46974410148!2d-5.833954!3d35.759465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b875cf04c132d%3A0x76957a1a531fd7ae!2sTangier!5e0!3m2!1sen!2sma!4v1689239851234!5m2!1sen!2sma"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -249,8 +282,10 @@
                 <ul>
                     <li><a href="#" onclick="document.querySelector('[data-target=\'home\']').click()">Accueil</a></li>
                     <li><a href="#" onclick="document.querySelector('[data-target=\'shop\']').click()">Boutique</a></li>
-                    <li><a href="#" onclick="document.querySelector('[data-target=\'about\']').click()">Histoire</a></li>
-                    <li><a href="#" onclick="document.querySelector('[data-target=\'contact\']').click()">Contact</a></li>
+                    <li><a href="#" onclick="document.querySelector('[data-target=\'about\']').click()">Histoire</a>
+                    </li>
+                    <li><a href="#" onclick="document.querySelector('[data-target=\'contact\']').click()">Contact</a>
+                    </li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -299,4 +334,5 @@
     <script src="js/data.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
